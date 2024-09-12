@@ -1,1 +1,1 @@
-Created a Portfolio Card using HTML, CSS, Javascript .
+Created a Portfolio Card using HTML, and  CSS .
