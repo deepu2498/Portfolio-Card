@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  background-color:rgb(34, 33, 33);
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  
+}
+.box{
+ 
+  width: 300px ;
+  height: 600px;
+  border: 4px solid orangered ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(228, 224, 224) ;
+   align-items: center;
+   text-align: center;
+   border-radius: 30px 30px 30px 30px;
+}
+.box .imgclass {
+  transform: translateY(-2px);  /*moving the content litttle bit upside */
+}
+
+.imgclass{
+   
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:4px solid orangered;
+    
+   
+}
+.personal-info{
+   margin-bottom: 50px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+
+
+.name{
+        
+  font-size: 35px;           
+  color: rgb(36, 35, 39); 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.innerbox{
+   margin-top: 20px;
+   height:80px;
+   width: 100%;
+   background-color: white;
+   border:2px solid white;
+   /* box-shadow: 10px 10px 10px 0px   white; */
+   border-radius: 8px 8px 8px 8px;
+
+}
+.heading{
+  color: rgb(71, 71, 71);
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin-top: 0.5rem;
+
+}
+#hack-icon{
+  font-size: 30px;
+}
+.icon{
+  margin-top: 0.5rem;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+.mail{
+    color: orangered;
+    margin-bottom: 300px;
+    padding-bottom: 30px;
+
+}
+.innerBox2{
+  margin: 20px;
+ height: 100px;
+ width: 100%;
+ border:2px solid  white;
+ background-color: white;
+ border-radius: 8px 8px 8px 8px;
+
+
+
+}
+
+#htmlicon, #css, #react, #js{
+ 
+ font-size: 30px;
+ margin-top: 1rem;
+ justify-content: center;
+ /* display: flex; */
+ gap: 50px;
+
+ 
+
+}
+.btn{
+  /* display: inline-block; */
+  /* padding: 1.2rem 2.8rem; */
+  background: #754ef9;
+  border-radius: 5px 5px 5px 5px;
+  /* box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .2); */
+  font-size: 0.9rem;
+  color:#fdfdfd;
+  /* letter-spacing: .1rem; */
+  font-weight: 600;
+  border: .2rem solid transparent;
+  /* transition: .5s ease;
+ */}
